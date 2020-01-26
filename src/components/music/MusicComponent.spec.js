@@ -1,10 +1,8 @@
-
-
 import React from 'react';
 import { shallow } from 'enzyme';
-import Component from './App';
+import Component from './MusicComponent';
 
-describe('App', () => {
+describe('Music', () => {
   let props;
   let getShallowComponent;
 

@@ -1,10 +1,8 @@
-
-
 import React from 'react';
 import { shallow } from 'enzyme';
-import Component from './App';
+import Component from './MainComponent';
 
-describe('App', () => {
+describe('Main', () => {
   let props;
   let getShallowComponent;
 

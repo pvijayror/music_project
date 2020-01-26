@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import Component from './HeaderComponent';
 
-describe('Home', () => {
+describe('Header', () => {
   let props;
   let getShallowComponent;
 
