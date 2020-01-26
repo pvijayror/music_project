@@ -4,14 +4,14 @@ const baseAction = (action, payload = {}) => ({
     payload 
 })
 
-const fetchData = (actionType, method, query=null) => (
+const fetchData = (actionType, method, query) => (
     dispatch,
     getState,
     services
     ) => {
     const { Api } = services;
     try{
-        let response =  Api[method](actionType, query); 
+        let response =  Api[method](query); 
         response.then(res => {
             if(res.status === 200) {
                 const payload = res.data.results;
