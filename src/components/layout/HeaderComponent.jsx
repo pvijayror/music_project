@@ -5,7 +5,7 @@ import './layout.css'
 
 const HeaderComponent = (props) => {
     return(
-        <div className="container search" style={{marginRight: '4px'}}> 
+        <div className="container search" style={{marginRight: '0%'}}> 
         <div className="jumbotron text-center" style={{background: '#fff'}}>
             <div className="row">
             <form onSubmit={props.handleClick}> 
