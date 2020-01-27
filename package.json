@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest --config ./jest.config.js",
     "start": "webpack-dev-server --mode development --open --hot",
+    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress",
     "build": "webpack --mode production"
   },
   "author": "",
