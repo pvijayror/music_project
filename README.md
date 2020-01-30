@@ -1,4 +1,4 @@
 
-# yarn install
-# yarn start
-# open browser http://localhost:3000
+ yarn install
+ yarn start
+ open browser http://localhost:3000
